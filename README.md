@@ -7,7 +7,7 @@ A way to deploy [Mega.nz-Bot](https://github.com/Itz-fork/Mega.nz-Bot) to Heroku
 
 - First fork this repo and copy your fork's github link
 
-- Then go to `https://heroku.com/deploy?template=YOUR_FORK_LINK_HERE`
+- Then go to `https://heroku.com/deploy?template=YOUR_FORK_LINK_HERE` (Replace `YOUR_FORK_LINK_HERE` with your forked repo link)
 
 - Fill the config vars. (Click [here](https://github.com/Itz-fork/Mega.nz-Bot#config-vars-) for more details)
 
