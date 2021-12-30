@@ -1,12 +1,12 @@
 {
     "name": "Mega-Deployer",
     "description": "Deploy the original Mega.nz-Bot",
-    "logo": "https://telegra.ph/file/583f46da57641b90c28f9.png",
+    "logo": "https://telegra.ph/file/12b04d613cfeede2c100c.jpg",
     "keywords": [
         "Telegram Bot"
     ],
     "website": "https://t.me/NexaBotsUpdates",
-    "repository": "https://github.com/Itz-fork/Mega.nz-Bot",
+    "repository": "https://github.com/Itz-fork/X-Bin-Patch",
     "success_url": "https://t.me/NexaBotsUpdates",
     "env": {
         "APP_ID": {
