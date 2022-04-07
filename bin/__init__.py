@@ -1,4 +1,8 @@
 # Just a python file, nothin' to see here!
 
-NAME = "Mega-Deployer"
-VERSION = "0.1"
+"""
+Mega-Deployer
+
+Version: 1.0
+Docker image: fedora
+"""

@@ -1,8 +1,9 @@
-FROM debian:latest
+FROM fedora:latest
 
-RUN apt update && apt upgrade -y
-RUN apt install git python3-pip ffmpeg -y
-RUN apt -qq install -y --no-install-recommends megatools
+RUN dnf upgrade -y
+RUN dnf install \
+  https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm -y
+RUN dnf install git python3-pip ffmpeg megatools -y
 RUN pip3 install -U pip
 RUN mkdir /app/
 WORKDIR /app/
