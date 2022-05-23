@@ -5,7 +5,7 @@ A way to deploy [Mega.nz-Bot](https://github.com/Itz-fork/Mega.nz-Bot) to Heroku
 
 # Deployment
 
-- Fork this repo - [click here](https://github.com/Itz-fork/X-Bin-Patch/fork).
+- Fork **this repo** - [click here](https://github.com/Itz-fork/X-Bin-Patch/fork).
 
   ![create fork](https://user-images.githubusercontent.com/77770753/167780790-ab07f59e-d5e4-4dd1-9160-72b1fddf060d.png)
 
