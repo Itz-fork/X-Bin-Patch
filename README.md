@@ -1,6 +1,6 @@
 # Mega-Deployer
 
-A way to deploy [Mega.nz-Bot](https://github.com/Itz-fork/Mega.nz-Bot) to Heroku!
+Deploy [Mega.nz-Bot](https://github.com/Itz-fork/Mega.nz-Bot/tree/nightly) (nightly) to Heroku
 
 
 # Deployment

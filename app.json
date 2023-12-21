@@ -17,23 +17,9 @@
             "description": "Your API_HASH from my.telegram.org",
             "required": true
         },
-        "AUTH_USERS": {
-            "description": "Telegram Ids Of Auth Users, Only they can use this bot. Separate them by space!",
-            "required": true
-        },
         "BOT_TOKEN": {
             "description": "Your Bot Token From @BotFather",
             "required": true
-        },
-        "IS_PUBLIC_BOT": {
-            "description": "Set this to 'True' If you want to set Download Function as Public. Default to 'False' !",
-            "required": false,
-            "value": "False"
-        },
-        "LOGS_CHANNEL": {
-            "description": "Make a private channel and forward a message from that channel to @ChannelidHEXbot and Get this. Not Mandatory",
-            "required": false,
-            "value": ""
         },
         "MEGA_EMAIL": {
             "description": "Fill this if you want to use your own Mega Account. This is your Mega account Email!",
@@ -45,18 +31,11 @@
         }
     },
     "addons": [],
-    "buildpacks": [
-        {
-            "url": "heroku/python"
-        },
-        {
-            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
-        }
-    ],
+    "buildpacks": [],
     "formation": {
         "worker": {
             "quantity": 1,
-            "size": "free"
+            "size": "eco"
         }
     },
     "stack": "container"
