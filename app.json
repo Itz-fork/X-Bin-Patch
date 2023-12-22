@@ -21,6 +21,11 @@
             "description": "Your Bot Token From @BotFather",
             "required": true
         },
+        "USE_ENV": {
+            "description": "Set this to False if you're using a custom mega.ini file",
+            "required": false,
+            "value": "True"
+        },
         "MEGA_EMAIL": {
             "description": "Fill this if you want to use your own Mega Account. This is your Mega account Email!",
             "required": false
