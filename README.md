@@ -23,7 +23,7 @@ Deploy [Mega.nz-Bot](https://github.com/Itz-fork/Mega.nz-Bot/tree/nightly) (nigh
   https://user-images.githubusercontent.com/77770753/167781439-730e7b16-a2ca-4df3-8754-9ea741c34515.mp4
 
 
-- Fill the config vars. [Click here](https://github.com/Itz-fork/Mega.nz-Bot#config-vars-) for more details.
+- Fill the config vars. [Click here](https://github.com/Itz-fork/Mega.nz-Bot#config-vars) for more details.
 
 - After that click on "Deploy app" button.
 
