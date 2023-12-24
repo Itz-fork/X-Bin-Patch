@@ -34,6 +34,11 @@
             "required": false,
             "value": "True"
         },
+        "TG_MAX_SIZE": {
+            "description": "Max size that a single uploaded file can have. Defaults to telegram limit of 2GiB",
+            "required": false,
+            "value": "2040108421"
+        },
         "CHUNK_SIZE": {
             "description": "Number of bytes bot should read into memory when downloading from DDL",
             "required": false,
