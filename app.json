@@ -30,7 +30,7 @@
             "required": false
         },
         "USE_ENV": {
-            "description": "Set this to False if you're using a custom mega.ini file",
+            "description": "Don't change this unless you're using mega.ini and .env files",
             "required": false,
             "value": "True"
         },
