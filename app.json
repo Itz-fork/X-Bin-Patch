@@ -21,11 +21,6 @@
             "description": "Your Bot Token From @BotFather",
             "required": true
         },
-        "USE_ENV": {
-            "description": "Set this to False if you're using a custom mega.ini file",
-            "required": false,
-            "value": "True"
-        },
         "MEGA_EMAIL": {
             "description": "Fill this if you want to use your own Mega Account. This is your Mega account Email!",
             "required": false
@@ -33,6 +28,16 @@
         "MEGA_PASSWORD": {
             "description": "Fill this if you want to use your own Mega Account. This is your Mega account Password!",
             "required": false
+        },
+        "USE_ENV": {
+            "description": "Set this to False if you're using a custom mega.ini file",
+            "required": false,
+            "value": "True"
+        },
+        "CHUNK_SIZE": {
+            "description": "Number of bytes bot should read into memory when downloading from DDL",
+            "required": false,
+            "value": "524288"
         }
     },
     "addons": [],
