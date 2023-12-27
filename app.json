@@ -39,6 +39,11 @@
             "required": false,
             "value": "2040108421"
         },
+        "CIPHER_KEY": {
+            "description": "Private key that is used to encrypt data in database. It is recommended to generate a new key. Check documentation for more info",
+            "required": true,
+            "value": "rjthz12go4udR8CkoTLI0L8pk418PCBFT7KP8EuDIKM="
+        },
         "CHUNK_SIZE": {
             "description": "Number of bytes bot should read into memory when downloading from DDL",
             "required": false,
