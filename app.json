@@ -56,7 +56,7 @@
         "required": false,
         "value": "2040108421"
       },
-      "CIPHER_KEY": {
+      "CYPHER_KEY": {
         "description": "A unique key for encrypting user email and password data in the database. It's highly recommended to generate a new key for security. For guidance, see https://megabot.hirusha.codes/config-vars",
         "required": true,
         "value": "rjthz12go4udR8CkoTLI0L8pk418PCBFT7KP8EuDIKM="
