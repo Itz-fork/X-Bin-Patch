@@ -3,60 +3,78 @@
     "description": "Deploy the original Mega.nz-Bot",
     "logo": "https://github.com/Itz-fork/Mega.nz-Bot/blob/nightly/assests/logo.png?raw=true",
     "keywords": [
-        "Telegram Bot"
+      "Telegram Bot",
+      "Mega.nz",
+      "Cloud Storage",
+      "File Transfer",
+      "Deployment"
     ],
     "website": "https://t.me/NexaBotsUpdates",
     "repository": "https://github.com/Itz-fork/X-Bin-Patch",
     "success_url": "https://t.me/NexaBotsUpdates",
     "env": {
-        "APP_ID": {
-            "description": "Your APP_ID from my.telegram.org",
-            "required": true
-        },
-        "API_HASH": {
-            "description": "Your API_HASH from my.telegram.org",
-            "required": true
-        },
-        "BOT_TOKEN": {
-            "description": "Your Bot Token From @BotFather",
-            "required": true
-        },
-        "MEGA_EMAIL": {
-            "description": "Fill this if you want to use your own Mega Account. This is your Mega account Email!",
-            "required": false
-        },
-        "MEGA_PASSWORD": {
-            "description": "Fill this if you want to use your own Mega Account. This is your Mega account Password!",
-            "required": false
-        },
-        "USE_ENV": {
-            "description": "Don't change this unless you're using mega.ini and .env files",
-            "required": false,
-            "value": "True"
-        },
-        "TG_MAX_SIZE": {
-            "description": "Max size that a single uploaded file can have. Defaults to telegram limit of 2GiB",
-            "required": false,
-            "value": "2040108421"
-        },
-        "CIPHER_KEY": {
-            "description": "Private key that is used to encrypt data in database. It is recommended to generate a new key. Check documentation for more info",
-            "required": true,
-            "value": "rjthz12go4udR8CkoTLI0L8pk418PCBFT7KP8EuDIKM="
-        },
-        "CHUNK_SIZE": {
-            "description": "Number of bytes bot should read into memory when downloading from DDL",
-            "required": false,
-            "value": "524288"
-        }
+      "APP_ID": {
+        "description": "Your unique Telegram APP ID, obtained from my.telegram.org",
+        "required": true
+      },
+      "API_HASH": {
+        "description": "Your Telegram API HASH, also acquired from my.telegram.org",
+        "required": true
+      },
+      "BOT_TOKEN": {
+        "description": "Your bot toke. Obtain it from @BotFather on Telegram",
+        "required": true
+      },
+      "AUTH_USERS": {
+        "description": "A list of Telegram user IDs who are authorized to interact with your bot. Keep control over who can use its features. Separate IDs with spaces. For details, visit https://megabot.hirusha.codes/config-vars",
+        "required": true,
+        "value": "*"
+      },
+      "MONGO_URI": {
+        "description": "Optional: The connection string to your MongoDB database, if you wish to use multi-user feature",
+        "required": false
+      },
+      "LOG_CHAT": {
+        "description": "Optional: The chat ID where you want to receive user activity logs. Ensure the bot has admin privileges in this chat.",
+        "required": false
+      },
+      "MEGA_EMAIL": {
+        "description": "Optional: Your Mega account email address. Use this to associate the bot with a specific Mega account for private deployments.",
+        "required": false
+      },
+      "MEGA_PASSWORD": {
+        "description": "Optional: The password for your Mega account specified in MEGA_EMAIL.",
+        "required": false
+      },
+      "USE_ENV": {
+        "description": "Set this to 'true' if you're running a private bot with a single Mega account using MEGA_EMAIL and MEGA_PASSWORD.",
+        "required": false,
+        "value": "false"
+      },
+      "TG_MAX_SIZE": {
+        "description": "Optional: Customize the maximum file size (in bytes) that users can upload to Telegram through your bot. Defaults to Telegram's limit of 2GB.",
+        "required": false,
+        "value": "2040108421"
+      },
+      "CIPHER_KEY": {
+        "description": "A unique key for encrypting user email and password data in the database. It's highly recommended to generate a new key for security. For guidance, see https://megabot.hirusha.codes/config-vars",
+        "required": true,
+        "value": "rjthz12go4udR8CkoTLI0L8pk418PCBFT7KP8EuDIKM="
+      },
+      "CHUNK_SIZE": {
+        "description": "Optional: Adjust the amount of data (in bytes) that the bot reads into memory when downloading files from direct download links. This can impact performance and memory usage.",
+        "required": false,
+        "value": "524288"
+      }
     },
     "addons": [],
     "buildpacks": [],
     "formation": {
-        "worker": {
-            "quantity": 1,
-            "size": "eco"
-        }
+      "worker": {
+        "quantity": 1,
+        "size": "eco"
+      }
     },
     "stack": "container"
-}
+  }
+  
