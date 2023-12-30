@@ -22,7 +22,7 @@
         "required": true
       },
       "BOT_TOKEN": {
-        "description": "Your bot toke. Obtain it from @BotFather on Telegram",
+        "description": "Your bot token. Obtain it from @BotFather on Telegram",
         "required": true
       },
       "AUTH_USERS": {
