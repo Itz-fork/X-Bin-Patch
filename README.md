@@ -1,10 +1,10 @@
 # Mega-Deployer
 
-Deploy [Mega.nz-Bot](https://github.com/Itz-fork/Mega.nz-Bot/tree/nightly) (nightly) to Heroku
-
+Deploy [Mega.nz-Bot](https://github.com/Itz-fork/Mega.nz-Bot) to Heroku
 
 > Note ⚠️
 > You can find the old version at [`legacy`](https://github.com/Itz-fork/X-Bin-Patch/tree/legacy) branch
+
 
 # Deployment
 
